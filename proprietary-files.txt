@@ -167,6 +167,7 @@ system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 
 # Camera
+odm/bin/hw/vendor.oplus.hardware.cammidasservice@1.0-service
 odm/etc/camera/ancsegbase/anc_cl_kernel.cache
 odm/etc/camera/ancsegbase/model.data
 odm/etc/camera/asd/class.dlc
@@ -575,6 +576,8 @@ odm/etc/camera/gasryuv_1.2_wp.model
 odm/etc/camera/model_fdc.data
 odm/etc/camera/settings_fdc_lite.txt
 odm/etc/init/calibrationOutput_uw.rc
+odm/etc/init/vendor.oplus.hardware.cammidasservice@1.0-service.rc
+odm/etc/vintf/manifest/manifest_oplus_cammidasservice.xml
 odm/etc/vintf/manifest/manifest_oplus_cameraextension.xml
 odm/lib/libDeVIS.so
 odm/lib/libc++_shared.so
@@ -685,6 +688,7 @@ odm/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
 odm/lib64/vendor.oplus.hardware.osense.client@1.0.so
 vendor/etc/camera/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode
+vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
 vendor/lib64/camera/components/com.qti.camx.chiiqutils.so
 vendor/lib64/camera/components/com.qti.eisv2.so
 vendor/lib64/camera/components/com.qti.eisv3.so
@@ -1481,6 +1485,9 @@ vendor/lib64/libperipheral_client.so
 vendor/lib64/libspcom.so
 
 # Perf
+odm/bin/hw/vendor.oplus.hardware.performance@1.0-service
+odm/etc/init/vendor.oplus.hardware.performance@1.0-service.rc
+odm/etc/vintf/manifest/manifest_oplus_performance.xml
 odm/lib/vendor.oplus.hardware.performance@1.0.so
 odm/lib64/vendor.oplus.hardware.performance@1.0.so
 vendor/bin/hw/vendor.qti.hardware.perf@2.2-service
